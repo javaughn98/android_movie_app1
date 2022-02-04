@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sort"
+        android:icon="@drawable/sort"
+        android:menuCategory="container"
+        android:title="Sort"
+        app:showAsAction="ifRoom|collapseActionView">
+        <menu>
+            <item
+                android:id="@+id/top_rated"
+                android:title="Rating">
+            </item>
+            <item
+                android:id="@+id/popular"
+                android:title="Popularity">
+            </item>
+            <item
+                android:id="@+id/AtoZ"
+                android:title="AtoZ">
+            </item>
+            <item
+                android:id="@+id/upcoming"
+                android:title="Upcoming Movies">
+            </item>
+            <item
+                android:id="@+id/nowPlaying"
+                android:title="Now Playing">
+            </item>
+            <item
+                android:id="@+id/airing"
+                android:title="Shows Airing Today">
+            </item>
+
+
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/search_hint"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>
